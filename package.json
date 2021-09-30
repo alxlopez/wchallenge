@@ -1,0 +1,27 @@
+{
+  "name": "wchallenge",
+  "version": "1.0.0",
+  "description": "Accenture (Wolox) Challenge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "test": "mocha tests/api.test.js --exit",
+    "doc": "npx serve ./wchallenge_doc"
+  },
+  "author": "Alexander López Guerrero",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "coingecko-api": "^1.0.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.1.2",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.1.28",
+    "nodemon": "^2.0.13",
+    "request": "^2.88.2",
+    "supertest": "^6.1.6",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
